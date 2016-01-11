@@ -12,8 +12,7 @@ fi
 
 SCRIPT_DIR="$(dirname $(readlink -f ${0}))"
 VENV_DIR="${SCRIPT_DIR}/.venv-test"
-COMMIT_HASH="$(git rev-parse --short HEAD)"
-IMAGE_NAME="theinnercircle/icbot:test-${COMMIT_HASH}"
+IMAGE_NAME="theinnercircle/icbot:test"
 
 
 
